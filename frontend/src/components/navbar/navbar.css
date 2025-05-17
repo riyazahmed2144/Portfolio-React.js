@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.navbar p{
+    font-weight: 700;
+    font-size: 32px;
+    color: aliceblue;
+}
+.navbar ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    color: rgba(240, 248, 255, 0.783);
+}
+.contact-btn button{
+    border: 2px solid aliceblue;
+    background-color: transparent;
+    border-radius: 25px;
+    outline: none;
+    padding: 10px 25px;
+    color: aliceblue;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
