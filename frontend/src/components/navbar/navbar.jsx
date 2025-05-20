@@ -1,16 +1,17 @@
 import React from 'react'
 import './navbar.css'
+import Logo from '../assets/logo.png'
 const navbar = () => {
   return (
     <div className="navbar">
       <div className="nav-icon">
-        <p>Riyaz</p>
+        <h2>Portfolio</h2>
       </div>
       <div className="navbar-menu">
         <ul>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Certificate</li>
+          <li><a href="#about">About</a></li>
+          <li><a href='#projects'>Projects</a></li>
+          <li><a href='#certificate'>Certificate</a></li>
         </ul>
       </div>
       <div className="contact-btn">

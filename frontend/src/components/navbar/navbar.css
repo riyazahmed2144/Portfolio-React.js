@@ -1,30 +1,47 @@
+
 .navbar{
     display: flex;
     align-items: center;
     background-color: transparent;
     justify-content: space-around;
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 }
-.navbar p{
-    font-weight: 700;
-    font-size: 32px;
+
+.nav-icon h2{
+    font-weight: 500;
+    font-size: 42px;
     color: aliceblue;
 }
 .navbar ul{
     display: flex;
     gap: 60px;
     list-style: none;
-    color: rgba(240, 248, 255, 0.783);
+    color: aliceblue;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+.navbar a{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    gap: 60px;
+    text-decoration: none; 
 }
 .contact-btn button{
     border: 2px solid aliceblue;
-    background-color: transparent;
+    background: linear-gradient(45deg, #00DBDE, #FC00FF);
     border-radius: 25px;
     outline: none;
     padding: 10px 25px;
     color: aliceblue;
-    font-weight: 300;
+    font-weight: 600;
     font-family: "Poppins", sans-serif;
+    cursor: pointer;
 }
-
+.contact-btn button:hover{
+    background: transparent;
+}
