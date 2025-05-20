@@ -1,0 +1,59 @@
+.line{
+    margin-left: 80px;
+    max-width: 200vh;
+    background-image: radial-gradient(circle, #180c8c, #1c1771, #201c56, #211e3a, #1f1f1f);
+    margin-top: 90px;
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+    border-radius: 20px;
+    transform: translateY(30px);
+    animation: fadeSlideIn 1.5s ease forwards;
+    animation-delay: 0.5s;
+    animation: fadeSlideIn linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.line h2{
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Poppins", sans-serif;
+    padding-right: 70px;
+    display: flex;
+    padding-top: 90px;
+    font-size: 48px;
+    padding-bottom: 15px;
+    background: linear-gradient(2deg, #00DBDE, #FC00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(30px);
+    animation: fadeSlideIn 1.5s ease forwards;
+    animation-delay: 0.5s;
+    animation: fadeSlideIn linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.line h3{
+    display: flex;
+    justify-content: right;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+    color: aliceblue;
+    padding-left: 70px;
+    max-width: 100vh;
+    padding-bottom: 100px;  
+    transform: translateY(30px);
+    animation: fadeSlideIn 1.5s ease forwards;
+    animation-delay: 0.5s;
+    animation: fadeSlideIn linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+@keyframes fadeSlideIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

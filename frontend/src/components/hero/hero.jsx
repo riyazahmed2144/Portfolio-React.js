@@ -6,7 +6,7 @@ const hero = () => {
       <div className="head">
         <h3>Hello I'm</h3>
         <h2>Riyaz Ahmed</h2>
-        <p>To obtain a challenging position as a Full Stack Developer where I can leverage my skills  in both front-end and back-end development to build efficient, scalable, and user-centric web applications. I aim to contribute to innovative projects while continuously learning and growing with a forward-thinking organization.</p>
+        <p>A Dedicated and enthusiastic Full-stack developer with a keen focus on the MERN stack — MongoDB, Express.js, React, and Node.js. I thrive on crafting responsive and scalable web applications that offer seamless user experiences. My passion lies in writing clean code, solving complex problems, and continuously learning new technologies in the web development ecosystem</p>
       </div>      
       <div className="right">
         <div className="circle"></div>

@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     transform: translateY(30px);
-    animation: fadeSlideIn 1s ease forwards;
+    animation: fadeSlideIn 1.5s ease forwards;
     animation-delay: 0.5s;
 }
 .head h2{
@@ -29,7 +29,7 @@
     flex: 1;
     flex-direction: column;
     transform: translateY(30px);
-    animation: fadeSlideIn 1s ease forwards;
+    animation: fadeSlideIn 1.5s ease forwards;
     animation-delay: 0.5s;
 }
 .head p{
@@ -39,7 +39,7 @@
     font-size: 18px;
     font-weight: 300;
     transform: translateY(30px);
-    animation: fadeSlideIn 1s ease forwards;
+    animation: fadeSlideIn 1.5s ease forwards;
     animation-delay: 0.5s;
 }
 .right{
@@ -59,7 +59,10 @@
     box-shadow: 0 0 30px 5px #8b5cf6;
 }
 @keyframes fadeSlideIn {
-  to {
+    from{
+        opacity: 0;
+    }
+    to {
     opacity: 1;
     transform: translateY(0);
   }
