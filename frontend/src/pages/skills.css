@@ -1,13 +1,14 @@
 .skills{
-    padding-top: 100px;
+    padding-top: 90px;
     margin-left: 90px;
+    padding-bottom: 70px ;
 }
 .skills h2{
     font-family: "Poppins", sans-serif;
     padding-right: 70px;
     display: flex;
-    font-size: 48px;
-    padding-bottom: 15px;
+    font-size: 42px;
+    padding-bottom: 0px;
     background: linear-gradient(2deg, #00DBDE, #FC00FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -22,10 +23,55 @@
     font-family: "Poppins", sans-serif;
     color: aliceblue;
     list-style: none;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
+    transform: translateY(30px);
+    animation: fadeSlideIn 1.5s ease forwards;
+    animation-delay: 0.5s;
+    animation: fadeSlideIn linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
 }
-
+.java{
+    margin: 20px;
+    width: 600px;
+    height: 8px;
+    border-radius: 12%;
+    background: linear-gradient(20deg, #00DBDE, #FC00FF);
+    box-shadow: 0 0 8px 5px #8b5cf6;
+}
+.c{
+    margin: 20px;
+    width: 700px;
+    height: 7px;
+    border-radius: 12%;
+    background: linear-gradient(20deg, #00DBDE, #FC00FF);
+    box-shadow: 0 0 8px 5px #8b5cf6;
+}
+.html{
+    margin: 20px;
+    width: 650px;
+    height: 8px;
+    border-radius: 12%;
+    background: linear-gradient(20deg, #00DBDE, #FC00FF);
+    box-shadow: 0 0 8px 5px #8b5cf6;
+}
+.css{
+    margin: 20px;
+    width: 550px;
+    height: 8px;
+    border-radius: 12%;
+    background: linear-gradient(20deg, #00DBDE, #FC00FF);
+    box-shadow: 0 0 8px 5px #8b5cf6;
+}
+.javascript{
+    margin: 20px;
+    width: 500px;
+    height: 8px;
+    border-radius: 12%;
+    background: linear-gradient(20deg, #00DBDE, #FC00FF);
+    box-shadow: 0 0 8px 5px #8b5cf6;
+}
 @keyframes fadeSlideIn {
     from{
         opacity: 0;

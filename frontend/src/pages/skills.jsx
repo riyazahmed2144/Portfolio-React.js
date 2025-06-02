@@ -9,7 +9,7 @@ const skills = () => {
             <li>C Programming<hr className='c'/></li>
             <li>HTML <hr className='html'/></li>
             <li>CSS <hr className='css'/></li>
-            <li>React <hr className='react'/></li>
+            <li>JavaScript <hr className='javascript'/></li>
         </ul>
     </div>
   )

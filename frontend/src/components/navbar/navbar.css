@@ -38,10 +38,12 @@
     outline: none;
     padding: 10px 25px;
     color: aliceblue;
-    font-weight: 600;
+    font-weight: 300;
     font-family: "Poppins", sans-serif;
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
 .contact-btn button:hover{
     background: transparent;
+    transform: scale(1.1);
 }

@@ -53,10 +53,7 @@
     height: 250px;
     background: linear-gradient(45deg, #00DBDE, #FC00FF);
     border-radius: 50%;
-    transition: box-shadow 0.3s ease;
-}
-.circle:hover{
-    box-shadow: 0 0 30px 5px #8b5cf6;
+    animation: pulseGlow 3s ease-in-out infinite;
 }
 @keyframes fadeSlideIn {
     from{
@@ -67,4 +64,11 @@
     transform: translateY(0);
   }
 }
-    
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px 2px #7c3aed;
+  }
+  50% {
+    box-shadow: 0 0 30px 6px #a78bfa;
+  }
+}
