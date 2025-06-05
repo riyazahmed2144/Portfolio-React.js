@@ -1,16 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './navbar.css'
 import Logo from '../assets/logo.png'
-const navbar = () => {
-  return (
-    <div className="navbar">
+const Navbar = () => {
+  const [isscrolled, setisscrolled ] = useState(false);
+    useEffect(() => {
+      const handlescroll = () => {
+        setisscrolled(window.scrollY > 50);
+      };
+      window.addEventListener('scroll', handlescroll);
+      return () => window.removeEventListener('scroll', handlescroll);
+    }, []);
+      return (
+    <div className={`navbar ${isscrolled ? 'scrolled' : ''}`}>
       <div className="nav-icon">
-        <h2>Portfolio</h2>
+        <h2>Riyaz Ahmed</h2>
       </div>
       <div className="navbar-menu">
         <ul>
           <li><a href="#main">About</a></li>
-          <li><a href='#projects'>Projects</a></li>
+          <li><a href='#experience'>Experience</a></li>
+          <li><a href='#skills'>Skills</a></li>
           <li><a href='#certificate'>Certificate</a></li>
         </ul>
       </div>
@@ -20,4 +29,4 @@ const navbar = () => {
     </div>
   )
 }
-export default navbar;
+export default Navbar;

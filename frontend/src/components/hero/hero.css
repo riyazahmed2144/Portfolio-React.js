@@ -1,52 +1,36 @@
 .hero{
     color: aliceblue;
     margin-left: 70px;
-    padding-top: 40px;
-    line-height: 0px;
+    margin-top: 150px;
     display: flex;
 }
-.head h3{
-    display: flex;
+
+.heading-line p{
+  max-width: 610px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 28px;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    transform: translateY(30px);
-    animation: fadeSlideIn 1.5s ease forwards;
-    animation-delay: 0.5s;
-}
-.head h2{
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 56px;
-    background: linear-gradient(90deg, #00DBDE, #FC00FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 55px;
     line-height: 1.1;
-    flex: 1;
-    flex-direction: column;
     transform: translateY(30px);
     animation: fadeSlideIn 1.5s ease forwards;
     animation-delay: 0.5s;
 }
-.head p{
-    flex-direction: column;
-    max-width: 625px;
-    line-height: 1.5;
-    font-size: 18px;
-    font-weight: 300;
-    transform: translateY(30px);
-    animation: fadeSlideIn 1.5s ease forwards;
-    animation-delay: 0.5s;
+
+.shaping {
+  font-size: 70px;
+  font-weight: 600;
+  margin: 0;
+  background: linear-gradient(90deg, #00DBDE, #FC00FF);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeSlideIn 1.5s ease forwards;
 }
+
 .right{
-    justify-content: center;
-    width: 420px;
-    padding-left: 210px;
-    padding-top: 24px;
+  margin-left: 150px;
+  padding-right: 70px;
+    padding-top: 40px;
 }
 .circle{
     width: 250px;

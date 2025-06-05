@@ -1,17 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './hero.css'
-const hero = () => {
+const Hero = () => {
+  const words = ["Shaping", "Creating", "Innovating", "Building"];
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % words.length);
+    }, 1800);
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className="hero">
       <div className="head">
-        <h3>Hello I'm</h3>
-        <h2>Riyaz Ahmed</h2>
-        <p>A Dedicated and enthusiastic Full-stack developer with a keen focus on the MERN stack — MongoDB, Express.js, React, and Node.js. I thrive on crafting responsive and scalable web applications that offer seamless user experiences. My passion lies in writing clean code, solving complex problems, and continuously learning new technologies in the web development ecosystem</p>
+        <div className="heading-line">
+         <h2 className="shaping fade">{words[index]}</h2>
+        <p>The Future, one line of code at a time.</p>
       </div>      
+      </div>
       <div className="right">
         <div className="circle"></div>
       </div>
     </div>
   )
 }
-export default hero;
+export default Hero;

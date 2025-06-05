@@ -11,7 +11,8 @@
     animation: fadeSlideIn linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .contact h2{
@@ -52,10 +53,10 @@
     font-size: 16px;
     color: aliceblue;
     margin-top: 8px;
-    transition: transform 0.3s ease;
+    transition: background-color 0.4s ease;
 }
 .field:hover{
-    transform: scale(1.1);
+    background-color: rgba(99, 101, 241, 0.269);
 }
 .input-box .field.mess{
     resize: none;
@@ -65,7 +66,9 @@
     margin: 50px;
     margin-left: 270px;
     border: 2px solid aliceblue;
-    background: linear-gradient(45deg, #00DBDE, #FC00FF);
+    background: linear-gradient(45deg, #00DBDE 0%, #FC00FF 70%);
+    background-size: 200% 100%;
+    background-position: right bottom;
     border-radius: 25px;
     outline: none;
     width: 250px;
@@ -75,21 +78,14 @@
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: background-position 0.6s ease;
 }
 .submit button:hover{
-    background: transparent;
-    transform: scale(1.1);
+    background-position: left bottom;
 }
 .icons {
     margin-left: 265px;
-    transition: transform 0.3s ease;
 }
 .icons a{
     margin-left: 30px;
-    transition: transform 0.3s ease;
-}
-
-.icons a:hover{
-    transform: scale(1.1);
 }

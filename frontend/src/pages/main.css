@@ -14,11 +14,14 @@
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
 }
-.right{
+.right-c{
+    padding-top: 30px;
+    padding-left: 40px;
     padding-right: 50px;
+    padding-bottom: 30px;
      background-color: transparent;
 }
-.right h2{
+.right-c h2{
     justify-content: right;
     line-height: 1.1;
     flex: 1;
@@ -36,7 +39,7 @@
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
 }
-.right h3{
+.right-c h3{
     justify-content: flex-end;
     display: flex;
     flex-direction: column;
@@ -52,8 +55,8 @@
     animation-range: entry 0% cover 30%;
 }
 .left{
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-top: 50px;
+    padding-left: 60px;
     width: 300px;
     transform: translateY(30px);
     animation: fadeSlideIn 1.5s ease forwards;
