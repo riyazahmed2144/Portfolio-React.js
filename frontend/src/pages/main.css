@@ -40,11 +40,12 @@
     animation-range: entry 0% cover 30%;
 }
 .right-c h3{
+    font-family: "Poppins", sans-serif;
     justify-content: flex-end;
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     color: aliceblue;
     max-width: 200vh;  
     transform: translateY(30px);

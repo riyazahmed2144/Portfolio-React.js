@@ -1,0 +1,43 @@
+.experience-container {
+  position: relative;
+  padding: 40px;
+  margin-top: 150px;
+  width: 80%;
+  margin-bottom: 600px;
+}
+
+.timeline-line{
+    position: absolute;
+     background: linear-gradient(4deg, #00DBDE, #FC00FF);
+    left: 30%;
+    width: 4px;
+    height: 100vh;
+    box-shadow: 0 0 10px 2px #a78bfa
+}
+
+.timeline-line::before,
+.timeline-line::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+   background: linear-gradient(9deg, #00DBDE, #FC00FF);
+  border: 3px solid #6c63ff;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+.timeline-line::before {
+  top: 0;
+}
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 0px 2px #7c3aed;
+  }
+  50% {
+    box-shadow: 0 0 10px 2px #a78bfa;
+  }
+}
+

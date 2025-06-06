@@ -15,8 +15,9 @@ const Hero = () => {
       <div className="head">
         <div className="heading-line">
          <h2 className="shaping fade">{words[index]}</h2>
-        <p>The Future, one line of code at a time.</p>
+        <p>The Future, one line <br />of code at a time.</p>
       </div>      
+        <p>Hi, I'm Riyaz Ahmed, a developer with a passion for code</p>
       </div>
       <div className="right">
         <div className="circle"></div>

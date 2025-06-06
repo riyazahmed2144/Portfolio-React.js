@@ -1,17 +1,31 @@
 import React from 'react'
 import './skills.css'
-const skills = () => {
+import { FaReact, FaJava, FaGitAlt } from 'react-icons/fa';
+const Skills = () => {
   return (
-       <div className="skills">
-        <h2>My Skills</h2>
-        <ul>
-            <li>Java <hr className='java'/></li>
-            <li>C Programming<hr className='c'/></li>
-            <li>HTML <hr className='html'/></li>
-            <li>CSS <hr className='css'/></li>
-            <li>JavaScript <hr className='javascript'/></li>
-        </ul>
-    </div>
+       <div className="float">
+        <div className="heading">
+          <h2>My Preferred Tech Stack</h2>
+        </div>
+        <div className='floating-logos'>
+        <div className="rea">
+  <img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" className="logo" />
+  <p>React <br /> Developer</p>
+  </div>
+  <div className="jav">
+<img
+  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+  alt="Java"
+  className="logo"
+/>
+<p>Java <br />Developer</p>
+</div>
+<div className="dev">
+<img src="https://cdn.simpleicons.org/git/F05032" alt="Git" className="logo" />
+<p>DevOps</p>
+</div>
+</div>
+</div>
   )
 }
-export default skills;
+export default Skills;

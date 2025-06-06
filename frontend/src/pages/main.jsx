@@ -9,7 +9,9 @@ const main = () => {
       </div>
       <div className='right-c'>
         <h2>About Me</h2>
-        <h3>I am a passionate and self-motivated full-stack web developer with a strong interest in the MERN stack (MongoDB, Express.js, React, Node.js). With a foundation in computer science and hands-on experience in both frontend and backend technologies, I enjoy building scalable, responsive, and user-centric web applications. I'm always eager to learn new tools and contribute to impactful tech projects.</h3>
+        <h3>Motivated Computer Science Engineering student with a strong foundation <br />in programming and web
+development. Seeking opportunities to apply full-stack development skills in real-world projects and
+contribute to innovative software solutions.</h3>
       </div>
     </div>
   )

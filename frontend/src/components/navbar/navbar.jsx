@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './navbar.css'
-import Logo from '../assets/logo.png'
+
 const Navbar = () => {
   const [isscrolled, setisscrolled ] = useState(false);
     useEffect(() => {
@@ -20,7 +20,7 @@ const Navbar = () => {
           <li><a href="#main">About</a></li>
           <li><a href='#experience'>Experience</a></li>
           <li><a href='#skills'>Skills</a></li>
-          <li><a href='#certificate'>Certificate</a></li>
+          <li><a href='https://drive.google.com/file/d/11kSBsPNI5-_4WxtNK3YZv3DcS5HKkQ_t/view?pli=1'>Resume</a></li>
         </ul>
       </div>
       <div className="contact-btn">

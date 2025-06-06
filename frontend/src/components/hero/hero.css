@@ -1,15 +1,25 @@
 .hero{
     color: aliceblue;
     margin-left: 70px;
-    margin-top: 150px;
+    margin-top: 130px;
     display: flex;
 }
 
 .heading-line p{
   max-width: 610px;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 55px;
+    line-height: 1.1;
+    transform: translateY(30px);
+    animation: fadeSlideIn 1.5s ease forwards;
+    animation-delay: 0.5s;
+}
+
+p{
+   font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
     line-height: 1.1;
     transform: translateY(30px);
     animation: fadeSlideIn 1.5s ease forwards;
@@ -18,25 +28,23 @@
 
 .shaping {
   font-size: 70px;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0;
   background: linear-gradient(90deg, #00DBDE, #FC00FF);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: fadeSlideIn 1.5s ease forwards;
 }
 
 .right{
-  margin-left: 150px;
-  padding-right: 70px;
-    padding-top: 40px;
+    margin-left: 100px;
+    padding-top: 0px;
 }
 .circle{
-    width: 250px;
-    height: 250px;
+    width: 470px;
+    height: 410px;
     background: linear-gradient(45deg, #00DBDE, #FC00FF);
-    border-radius: 50%;
+    border-radius: 0% 0% 0% 100% / 40% 0% 0% 100%;
     animation: pulseGlow 3s ease-in-out infinite;
 }
 @keyframes fadeSlideIn {

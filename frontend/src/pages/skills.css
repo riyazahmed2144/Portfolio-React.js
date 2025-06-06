@@ -1,77 +1,162 @@
-.skills{
-    padding-top: 90px;
-    margin-left: 90px;
-    padding-bottom: 70px ;
+.heading h2{
+  color: aliceblue;
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1.5s ease forwards;
+  animation-delay: 0.5s;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
 }
-.skills h2{
-    font-family: "Poppins", sans-serif;
-    padding-right: 70px;
-    display: flex;
-    font-size: 42px;
-    padding-bottom: 0px;
-    background: linear-gradient(2deg, #00DBDE, #FC00FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transform: translateY(30px);
-    animation: fadeSlideIn 1.5s ease forwards;
-    animation-delay: 0.5s;
-    animation: fadeSlideIn linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+
+.rea{
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+  border-radius: 35%;
+  background: linear-gradient(90deg, rgba(99, 102, 241, 0.6) 0%, #efefef00 70%);
+  background-position: right bottom;
+  background-size: 200% 100%;
+  transition: background-position 0.4s ease;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1.5s ease forwards;
+  animation-delay: 0.5s;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+  cursor: pointer;
 }
-.skills ul{
-    font-family: "Poppins", sans-serif;
-    color: aliceblue;
-    list-style: none;
-    font-size: 18px;
-    font-weight: 600;
-    transform: translateY(30px);
-    animation: fadeSlideIn 1.5s ease forwards;
-    animation-delay: 0.5s;
-    animation: fadeSlideIn linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+.rea:hover{
+  size: 100px;
+  background-position: left bottom;
 }
-.java{
-    margin: 20px;
-    width: 600px;
-    height: 8px;
-    border-radius: 12%;
-    background: linear-gradient(20deg, #00DBDE, #FC00FF);
-    box-shadow: 0 0 8px 5px #8b5cf6;
+.rea p{
+  font-size:  "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  color: aliceblue;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1.5s ease forwards;
+  animation-delay: 0.5s;
 }
-.c{
-    margin: 20px;
-    width: 700px;
-    height: 7px;
-    border-radius: 12%;
-    background: linear-gradient(20deg, #00DBDE, #FC00FF);
-    box-shadow: 0 0 8px 5px #8b5cf6;
+.jav p{
+  font-size:  "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  color: aliceblue;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1.5s ease forwards;
+  animation-delay: 0.5s;
 }
-.html{
-    margin: 20px;
-    width: 650px;
-    height: 8px;
-    border-radius: 12%;
-    background: linear-gradient(20deg, #00DBDE, #FC00FF);
-    box-shadow: 0 0 8px 5px #8b5cf6;
+.jav {
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+  border-radius: 35%;
+  background: linear-gradient(90deg, rgba(99, 102, 241, 0.6) 0%, #efefef00 70%);
+  background-position: right bottom;
+  background-size: 200% 100%;
+  transition: background-position 0.4s ease;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1.5s ease forwards;
+  animation-delay: 0.5s;
+  cursor: pointer;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
 }
-.css{
-    margin: 20px;
-    width: 550px;
-    height: 8px;
-    border-radius: 12%;
-    background: linear-gradient(20deg, #00DBDE, #FC00FF);
-    box-shadow: 0 0 8px 5px #8b5cf6;
+.jav:hover{
+  size: 100px;
+  background-position: left bottom;
 }
-.javascript{
-    margin: 20px;
-    width: 500px;
-    height: 8px;
-    border-radius: 12%;
-    background: linear-gradient(20deg, #00DBDE, #FC00FF);
-    box-shadow: 0 0 8px 5px #8b5cf6;
+.dev{
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+  border-radius: 35%;
+  background: linear-gradient(90deg, rgba(99, 102, 241, 0.6) 0%, #efefef00 70%);
+  background-position: right bottom;
+  background-size: 200% 100%;
+  transition: background-position 0.4s ease;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1.5s ease forwards;
+  animation-delay: 0.5s;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+  cursor: pointer;
 }
+.dev:hover{
+  size: 100px;
+  background-position: left bottom;
+}
+.dev p{
+  font-size:  "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  color: aliceblue;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1.5s ease forwards;
+  animation-delay: 0.5s;
+}
+.floating-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 20px;
+  perspective: 500px;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1.5s ease forwards;
+  margin-bottom: 70px;
+}
+
+.logo {
+  padding: 30px;
+  width: 130px;
+  height: 130px;
+  transform-style: preserve-3d;
+  animation: float3d 4s ease-in-out infinite;
+  will-change: transform;
+}
+
+.react {
+  animation-delay: 0s;
+}
+.java {
+  animation-delay: 0.3s;
+}
+.git {
+  animation-delay: 0.6s;
+}
+
+@keyframes float3d {
+  0% {
+    transform: translateY(0px) rotateY(0deg) rotateX(0deg);
+  }
+  25% {
+    transform: translateY(-10px) rotateY(15deg) rotateX(5deg);
+  }
+  50% {
+    transform: translateY(0px) rotateY(0deg) rotateX(0deg);
+  }
+  75% {
+    transform: translateY(10px) rotateY(-15deg) rotateX(-5deg);
+  }
+  100% {
+    transform: translateY(0px) rotateY(0deg) rotateX(0deg);
+  }
+}
+
 @keyframes fadeSlideIn {
     from{
         opacity: 0;

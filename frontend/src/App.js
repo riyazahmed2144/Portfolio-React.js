@@ -5,6 +5,7 @@ import About from './pages/main';
 import Skills from './pages/skills';
 import Hero from './components/hero/hero';
 import Contact from './components/contact/contact';
+import Experience from './pages/experience';
 function App() {
   return (
     <div>
@@ -13,7 +14,12 @@ function App() {
       <div id="main">
         <About />
       </div>
-      < Skills />
+      < div id="experience">
+      <Experience />
+      </div>
+      <div id='skills'>
+        <Skills />
+      </div>
       <div id='contact'>
         <Contact />
       </div>
