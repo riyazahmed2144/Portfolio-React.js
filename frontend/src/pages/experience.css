@@ -3,16 +3,42 @@
   padding: 40px;
   margin-top: 150px;
   width: 80%;
-  margin-bottom: 600px;
+  margin-bottom: 150px;
+  color: aliceblue;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+  
+}
+.experience-item {
+  position: relative;
+  width: 45%;
+  padding: 20px;
+  background: transparent;
+  margin: 40px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+}
+
+.experience-item.left {
+  left: 40%;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.experience-item.right {
+  left: 40%;
+  text-align: left;
 }
 
 .timeline-line{
     position: absolute;
-     background: linear-gradient(4deg, #00DBDE, #FC00FF);
+    background: linear-gradient(4deg, #00DBDE, #FC00FF);
     left: 30%;
     width: 4px;
     height: 100vh;
-    box-shadow: 0 0 10px 2px #a78bfa
+    box-shadow: 0 0 10px 2px #a78bfa;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
 }
 
 .timeline-line::before,
@@ -21,7 +47,7 @@
   position: absolute;
   width: 14px;
   height: 14px;
-   background: linear-gradient(9deg, #00DBDE, #FC00FF);
+  background: linear-gradient(120deg, #00DBDE, #FC00FF);
   border: 3px solid #6c63ff;
   border-radius: 50%;
   left: 50%;
