@@ -8,7 +8,7 @@ import Contact from './components/contact/contact';
 import Experience from './pages/experience';
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Navbar />
         < Hero />
       <div id="main">
