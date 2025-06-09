@@ -166,3 +166,25 @@
         transform: translateY(0);
     }
 }
+
+@media (max-width:600px) {
+  .floating-logos{
+  display: contents;
+  flex-direction: column;
+}
+.rea{
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 30px;
+}
+.jav{
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 30px;
+}
+.dev{
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 50px;
+}
+}

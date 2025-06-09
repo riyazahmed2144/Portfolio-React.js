@@ -1,8 +1,12 @@
 .box{
-    font-family: "Poppins", sans-serif;
-    margin-left: 220px;
-    max-width: 150vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
     background-image: radial-gradient(circle, #180c8c, #1c1771, #201c56, #211e3a, #1f1f1f);
+    margin-top: 50px;
     box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
     border-radius: 20px;
     transform: translateY(30px);
@@ -11,8 +15,6 @@
     animation: fadeSlideIn linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
-    padding-bottom: 30px;
-    margin-bottom: 70px;
 }
 
 .contact h2{
@@ -45,7 +47,7 @@
     font-family: "Poppins", sans-serif;
     width: 90%;
     height: 20px;
-    padding: 15px;
+    padding: 20px;
     background: transparent;
     border: 2px solid rgba(99, 102, 241, 0.6);
     outline: none;
@@ -64,7 +66,7 @@
 }
 .submit button{
     margin: 50px;
-    margin-left: 270px;
+    margin-left: 290px;
     border: 2px solid aliceblue;
     background: linear-gradient(45deg, #00DBDE 0%, #FC00FF 70%);
     background-size: 200% 100%;
@@ -84,8 +86,59 @@
     background-position: left bottom;
 }
 .icons {
-    margin-left: 265px;
+    margin-left: 290px;
 }
 .icons a{
     margin-left: 30px;
+}
+
+@media (max-width:600px) {
+    .contact{
+        align-items: center;
+        justify-content: left;
+    }
+    .contact h2{
+        margin-left: 30px;
+    }
+    .field{
+        padding: 15px;
+        width: 80%;
+    }
+    .box{
+        justify-content: left;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
+    }
+    .submit button{
+        margin-left: 90px;
+    }
+    .icons{
+        margin-left: 80px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+    .contact{
+        align-items: center;
+        justify-content: left;
+    }
+    .contact h2{
+        margin-left: 30px;
+    }
+    .field{
+        padding: 15px;
+        width: 80%;
+    }
+    .box{
+        justify-content: left;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
+    }
+    .submit button{
+        margin-left: 90px;
+    }
+    .icons{
+        margin-left: 80px;
+    }
 }

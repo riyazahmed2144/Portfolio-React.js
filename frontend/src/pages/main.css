@@ -1,7 +1,7 @@
 .line{
     display: flex;
-    margin-left: 80px;
-    max-width: 200vh;
+    margin-left: 40px;
+    margin-right: 40px;
     padding-bottom: 100px;
     background-image: radial-gradient(circle, #180c8c, #1c1771, #201c56, #211e3a, #1f1f1f);
     margin-top: 90px;
@@ -47,7 +47,6 @@
     font-size: 18px;
     font-weight: 400;
     color: aliceblue;
-    max-width: 200vh;  
     transform: translateY(30px);
     animation: fadeSlideIn 1.5s ease forwards;
     animation-delay: 0.5s;
@@ -81,4 +80,17 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+@media (max-width: 600px){
+ .line{
+    flex-direction: column;
+    align-items: center;
+ }   
+}
+@media (min-width: 601px) and (max-width: 1024px){
+.line{
+flex-direction: column;
+align-items: center;
+ } 
 }
