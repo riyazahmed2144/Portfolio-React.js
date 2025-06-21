@@ -1,9 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
-.App {
-  text-align: center;
-}
+
 
 body{
   background-image: radial-gradient(circle, #180c8c, #1c1771, #201c56, #211e3a, #1f1f1f);
