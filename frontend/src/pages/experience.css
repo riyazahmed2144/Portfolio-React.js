@@ -74,7 +74,7 @@
 }
 @media (min-width: 601px) and (max-width: 1024px){
   .timeline-line{
-    height: 100vh;
+    height: 110vh;
   }
 }
 
