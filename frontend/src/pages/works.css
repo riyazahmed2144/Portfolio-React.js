@@ -92,15 +92,15 @@
 
   .e-commerce img,
   .market img {
-    width: 380px;
-    height: 180px;
+    width: 100%;
+    height: auto;
   }
 
   .side img,
   .side-1 img {
-    width: 170px;
+    width: 150px;
     margin-left: 20px;
-    height: 100px;
+    height: 80px;
   }
 }
 @media (min-width: 601px) and (max-width: 1024px) {
