@@ -6,6 +6,7 @@ import Skills from './pages/skills';
 import Hero from './components/hero/hero';
 import Contact from './components/contact/contact';
 import Experience from './pages/experience';
+import Works from './pages/works';
 function App() {
   return (
     <div className='container'>
@@ -16,6 +17,9 @@ function App() {
       </div>
       < div id="experience">
       <Experience />
+      </div>
+      <div id="works">
+      <Works />
       </div>
       <div id='skills'>
         <Skills />

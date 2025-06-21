@@ -4,6 +4,7 @@
   margin-top: 150px;
   width: 80%;
   color: aliceblue;
+  animation: fadeSlideIn 1.5s ease forwards;
   animation-timeline: view();
   animation-range: entry 0% cover 30%;
 }
@@ -33,8 +34,9 @@
     background: linear-gradient(4deg, #00DBDE, #FC00FF);
     left: 30%;
     width: 4px;
-    height: 120vh;
+    height: 100vh;
     box-shadow: 0 0 10px 2px #a78bfa;
+    animation: fadeSlideIn 1.5s ease forwards;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
 }
@@ -62,6 +64,17 @@
   }
   50% {
     box-shadow: 0 0 10px 2px #a78bfa;
+  }
+}
+
+@media (max-width: 600px){
+  .timeline-line{
+    height: 140vh;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+  .timeline-line{
+    height: 115vh;
   }
 }
 

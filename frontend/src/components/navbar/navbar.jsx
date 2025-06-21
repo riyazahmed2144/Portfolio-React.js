@@ -19,6 +19,7 @@ const Navbar = () => {
         <ul>
           <li><a href="#main">About</a></li>
           <li><a href='#experience'>Experience</a></li>
+          <li><a href="#works">Works</a></li>
           <li><a href='#skills'>Skills</a></li>
           <li><a href='https://drive.google.com/file/d/11kSBsPNI5-_4WxtNK3YZv3DcS5HKkQ_t/view?pli=1'>Resume</a></li>
         </ul>

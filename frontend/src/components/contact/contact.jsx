@@ -54,7 +54,7 @@ const onSubmit = async (event) => {
         </div>
         <div className="icons">
          <a
-      href="https://github.com/Riyaz2144"
+      href="https://github.com/riyazahmed2144"
       target="_blank"
       rel="noopener noreferrer"
       title="Visit my GitHub"
