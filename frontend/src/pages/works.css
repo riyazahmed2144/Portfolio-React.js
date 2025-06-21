@@ -73,20 +73,21 @@
 }
 @media (max-width: 600px) {
   .e-commerce, .market {
-    display: grid;
-    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
     margin: 0px auto;
     transition: transform 0.2s ease;
   }
   .market{
-    margin-top: 30px;
+    margin-top: 40px;
   }
-
   .side, .side-1 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0px;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
   }
 
   .e-commerce img,
@@ -94,11 +95,12 @@
     width: 100%;
     height: auto;
   }
+
   .side img,
   .side-1 img {
-    width: 180px;
-    margin-left: 10px;  
-    height: 90px;
+    width: 170px;
+    margin-left: 20px;
+    height: 100px;
   }
 }
 @media (min-width: 601px) and (max-width: 1024px) {
