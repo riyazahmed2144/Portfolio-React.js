@@ -69,12 +69,12 @@
 
 @media (max-width: 600px){
   .timeline-line{
-    height: 140vh;
+    height: 120vh;
   }
 }
 @media (min-width: 601px) and (max-width: 1024px){
   .timeline-line{
-    height: 115vh;
+    height: 100vh;
   }
 }
 
