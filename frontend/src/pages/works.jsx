@@ -13,8 +13,8 @@ const Works = () => {
         <div className="e-commerce">
             <div className="over">
             <h3>E-commerce</h3>
-            <span>React, Node.js, Express, MongoDB</span>
-            <button className='proj'><a href="https://github.com/riyazahmed2144/E-Commerce-website-MERN-Stack-">View Project</a></button>
+            <span>React, Express, MongoDB</span>
+            <button><a href="https://github.com/riyazahmed2144/E-Commerce-website-MERN-Stack-">View Project</a></button>
             </div>
             <div className="e-commerce-body">
                 <div className="main-image">
@@ -26,15 +26,20 @@ const Works = () => {
             </div>
         </div>
         </div>
-        <div className="market">
-            <a href="https://github.com/riyazahmed2144/market-m">
+        <div className="e-commerce">
+             <div className="over">
+            <h3>Market Dashboard</h3>
+            <span>HTML, Node.js, MongoDB</span>
+            <button><a href="https://github.com/riyazahmed2144/E-Commerce-website-MERN-Stack-">View Project</a></button>
+            </div>
+            <div className='e-commerce-body'>
+            <div className="main-image">
             <img src={One} alt="" />
-            </a>
-            <div className="side-1">
-            <a href="https://github.com/riyazahmed2144/market-m">
+            </div>
+            <div className="side">
                 <img src={Two} alt="" />
                 <img src={Three} alt="" />
-            </a>
+            </div>
             </div>
         </div>
     </div>
