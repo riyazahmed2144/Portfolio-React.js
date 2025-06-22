@@ -61,7 +61,7 @@ p{
     box-shadow: 0 0 10px 2px #7c3aed;
   }
   50% {
-    box-shadow: 0 0 30px 6px #a78bfa;
+    box-shadow: 0 0 20px 2px #a78bfa;
   }
 }
 @media (max-width: 600px) {

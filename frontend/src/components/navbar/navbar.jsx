@@ -3,6 +3,7 @@ import './navbar.css'
 
 const Navbar = () => {
   const [isscrolled, setisscrolled ] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
     useEffect(() => {
       const handlescroll = () => {
         setisscrolled(window.scrollY > 50);
@@ -15,7 +16,10 @@ const Navbar = () => {
       <div className="nav-icon">
         <h2>Riyaz Ahmed</h2>
       </div>
-      <div className="navbar-menu">
+      <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        ☰
+      </div>
+      <div className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
         <ul>
           <li><a href="#main">About</a></li>
           <li><a href='#experience'>Experience</a></li>

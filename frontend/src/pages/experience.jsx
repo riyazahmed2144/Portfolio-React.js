@@ -3,6 +3,7 @@ import './experience.css'
 const Experience = () => {
   return (
     <div className='experience-container'>
+      <h2>Experience</h2>
         <div className="timeline-line"></div>
         <div className="experience-item left">
         <h3>FullStack Intern</h3>

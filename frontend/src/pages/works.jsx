@@ -11,15 +11,20 @@ const Works = () => {
     <div className='works'>
         <h2>My Works</h2>
         <div className="e-commerce">
-            <a href="https://github.com/riyazahmed2144/E-Commerce-website-MERN-Stack-">
+            <div className="over">
+            <h3>E-commerce</h3>
+            <span>React, Node.js, Express, MongoDB</span>
+            <button className='proj'><a href="https://github.com/riyazahmed2144/E-Commerce-website-MERN-Stack-">View Project</a></button>
+            </div>
+            <div className="e-commerce-body">
+                <div className="main-image">
             <img src={Main} alt="" />
-            </a>
+            </div>
             <div className='side'>
-                <a href="https://github.com/riyazahmed2144/E-Commerce-website-MERN-Stack-">
                 <img src={Second} alt="" />
                 <img src={Third} alt="" />
-                </a>
             </div>
+        </div>
         </div>
         <div className="market">
             <a href="https://github.com/riyazahmed2144/market-m">
